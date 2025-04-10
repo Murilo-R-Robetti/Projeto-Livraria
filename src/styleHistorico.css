@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linhaTopo{
+    display: flex;
+    width: 100vw;
+    height: 142;
+    padding: 4px;
+    top: -23px;
+    background-color: #130F0C;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#imagemLogo{
+    display:flex;
+    width: 93.49668884277344px;
+    height: 52px;
+    top: 52px;
+    left: 169px;
+    border-radius: 1000px;
+}
+
+#buscaLivro{
+    width: 686px;
+    height: 56px;
+    min-width: 360px;
+    max-width: 720px;
+    top: 52px;
+    left: 293px;
+    border-radius: 28px;
+    padding: 6px;
+    gap: 4px;
+}
+
+#menuItems{
+    color: white;
+}
+
+#menuAtual{
+    color: #620AA2;
+}
