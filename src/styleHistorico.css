@@ -51,5 +51,10 @@
 }
 
 #menuAtual{
+    color: white;
+}
+
+#menuAtual:hover{
+    
     color: #620AA2;
 }
